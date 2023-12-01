@@ -1,0 +1,118 @@
+@media (min-width: 360px) {
+    .con1{
+        background-color: black;
+        border: 3px solid orangered;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .con3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color:brown;
+        border-bottom: 3px solid black;
+        border-left: 3px solid black;
+        background-position:fixed ;
+    }
+
+    .banner{
+        color: darkorange;
+        font-size: 3vw;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .item2{
+        color:goldenrod;
+        text-decoration: none;
+        font-size: 1.8vw;
+    }
+}
+@media (max-width: 600px) {
+    .con1{
+        flex-direction: column;
+    }
+    .banner{
+        font-size: 5vw;
+    }
+    .item2{
+        font-size: 3vw;
+    }
+    h2{
+        font-size: 3.5vw;
+    }
+    p{
+        font-size: 3.5vw;
+    }
+    h3{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+    .con3 {
+        flex-direction: column;
+    }
+}
+
+.item2:hover{
+    text-decoration-line: underline;
+}
+
+.line{
+    color:brown;
+    background-color:brown;
+    border: 2px solid black;
+}
+
+.con2{
+    background-image: url(./image/webbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: gold;
+    padding: 30px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+}
+
+h3{
+    color: gold;
+}
+
+.text3{
+    background-color: darkred;
+    border-style:dashed;
+    border-radius: 5px;
+}
+
+p{
+    color:lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.p2{
+    color: lightblue;
+}
+
+li{
+    color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: darkorange;
+    padding: 10px;
+    border: 3px solid orangered;
+}
